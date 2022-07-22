@@ -1,0 +1,31 @@
+Settings:
+  Prefix: "&f[ &bDLL &f] "
+
+  BlockEvent:
+    Player:
+      BlockBreakEvent: true
+      BlockPlaceEvent: true
+      BlockCanBuildEvent: true
+      BlockDamageAbortEvent: true
+      BlockDispenseArmorEvent: true
+    World:
+      BlockBurnEvent: true
+      BlockCookEvent: true
+      BlockDispenseEvent: true
+  PlayerEvent:
+    PlayerChatEvent: true
+    PlayerCommandPreprocessEvent: true
+    PlayerCommandSendEvent: true
+    PlayerInteractEvent: true
+    PlayerInventoryClickEvent: true
+    PlayerInventoryCloseEvent: true
+    PlayerInventoryOpenEvent: true
+    PlayerItemDropEvent: true
+    PlayerItemPickupEvent: true
+    PlayerJoinEvent: true
+    PlayerQuitEvent: true
+    PlayerMoveEvent: true
+
+  etc:
+    PlayerMoveEvent:
+      log_every_tick: 20
